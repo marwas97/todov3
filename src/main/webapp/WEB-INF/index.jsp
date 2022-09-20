@@ -7,6 +7,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
         body{font-family: 'Poppins', sans-serif;}
         h1{font-family: 'Poppins', sans-serif;}
+        a { text-decoration: none; border: 3px solid green; background-color: lightgreen; padding:10px}
+        a:hover { color:white; background-color: darkgreen}
     </style>
 </head>
 <body>
