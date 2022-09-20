@@ -1,10 +1,9 @@
-package com.testarmy.app;
+package com.todov3.app;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.DispatcherServlet;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import javax.servlet.FilterRegistration;
 import javax.servlet.ServletContext;
@@ -19,7 +18,7 @@ public class SpringApplication implements WebApplicationInitializer {
                 new AnnotationConfigWebApplicationContext();
         //ten kontekts jest konfigurowany za pomocą klasy
         //scan - szuka klasy oznaczonej @Configuration
-        context.scan("com.testarmy");
+        context.scan("com.todov3");
 
         context.setServletContext(servletContext);
         ServletRegistration.Dynamic servlet =

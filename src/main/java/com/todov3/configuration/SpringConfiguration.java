@@ -1,4 +1,4 @@
-package com.testarmy.configuration;
+package com.todov3.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -18,16 +18,16 @@ import javax.persistence.EntityManagerFactory;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.testarmy")
+@ComponentScan(basePackages = "com.todov3")
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "com.testarmy.repository")
+@EnableJpaRepositories(basePackages = "com.todov3.repository")
 public class SpringConfiguration implements WebMvcConfigurer {
     @Bean
     public LocalEntityManagerFactoryBean entityManagerFactory() {
         LocalEntityManagerFactoryBean entityManagerFactoryBean
                 = new LocalEntityManagerFactoryBean();
         //musimy ustawić odpowiedni unitName - taki sam jak w pliku persistence.xml
-        entityManagerFactoryBean.setPersistenceUnitName("clean");
+        entityManagerFactoryBean.setPersistenceUnitName("todov3");
         return entityManagerFactoryBean;
     }
 

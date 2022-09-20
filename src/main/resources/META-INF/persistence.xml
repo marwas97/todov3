@@ -5,9 +5,9 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
 													http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
              version="2.1">
-    <persistence-unit name="clean">
+    <persistence-unit name="todov3">
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/clean" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/todov3" />
             <property name="javax.persistence.jdbc.user" value="root" />
             <property name="javax.persistence.jdbc.password" value="Grupa03!" />
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />

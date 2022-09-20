@@ -1,4 +1,4 @@
-package com.testarmy.entity;
+package com.todov3.entity;
 
 import javax.persistence.*;
 

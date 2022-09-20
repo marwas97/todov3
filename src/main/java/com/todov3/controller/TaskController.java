@@ -1,7 +1,7 @@
-package com.testarmy.controller;
+package com.todov3.controller;
 
-import com.testarmy.entity.Task;
-import com.testarmy.repository.TaskRepository;
+import com.todov3.entity.Task;
+import com.todov3.repository.TaskRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
