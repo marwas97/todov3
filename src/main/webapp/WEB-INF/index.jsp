@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Księgarnia TEST</title>
+    <title>Todo v3 web</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
         body{font-family: 'Poppins', sans-serif;}
@@ -12,11 +12,7 @@
     </style>
 </head>
 <body>
-<h1>Księgarnia Test</h1>
-<a href="/book/add">Dodaj książkę</a>
-<a href="/book/">Pokaż książki</a>
-<a href="/game/add">Dodaj grę</a>
-<a href="/game/">Pokaż gry</a>
+<h1>Todo v3 web</h1>
 <a href="/task/add">Dodaj zadanie</a>
 <a href="/task/">Wyświetl listę zadań</a>
 </body>
